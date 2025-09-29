@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import profileImage from "../assets/IMG_8607.png"
+=======
+import profileImage from "../assets/IMG_8607.JPG"
+>>>>>>> d978b95f659a8164ca8ed5eb591ea12f7c5e67fd
 
 const Profile = () => {
   return (
