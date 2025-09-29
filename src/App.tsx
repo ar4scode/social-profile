@@ -2,6 +2,7 @@ import './App.css'
 import Profile from './components/Profile'
 import About from './components/About';
 import Socials from './components/Socials';
+import Skills from './components/Skills';
 
 function App() {
   
@@ -11,6 +12,7 @@ function App() {
       <Profile />
       <About />
       <Socials />
+      <Skills />
     </div>
   )
 }
