@@ -1,6 +1,7 @@
 import './App.css'
 import Profile from './components/Profile'
 import About from './components/About';
+import Socials from './components/Socials';
 
 function App() {
   
@@ -9,6 +10,7 @@ function App() {
     <div className='m-4 rounded-2xl shadow-md shadow-[#CFCFEA]'>
       <Profile />
       <About />
+      <Socials />
     </div>
   )
 }
