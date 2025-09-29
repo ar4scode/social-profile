@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 import profileImage from "../assets/IMG_8607.png"
+=======
+<<<<<<< HEAD
+import profileImage from "../assets/IMG_8607.png"
+=======
+import profileImage from "../assets/IMG_8607.JPG"
+>>>>>>> d978b95f659a8164ca8ed5eb591ea12f7c5e67fd
+>>>>>>> 88409320fd50e5af6aca778ded4b7af04c905747
 
 const Profile = () => {
   return (
