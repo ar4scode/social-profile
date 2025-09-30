@@ -3,6 +3,7 @@ import Profile from './components/Profile'
 import About from './components/About';
 import Socials from './components/Socials';
 import Skills from './components/Skills';
+import Projects from './components/Projects';
 
 function App() {
   
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Socials />
       <Skills />
+      <Projects />
     </div>
   )
 }
