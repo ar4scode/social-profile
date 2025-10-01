@@ -20,8 +20,8 @@ const Skills = () => {
             className="flex items-center gap-2 px-3 py-2 rounded-full 
                       bg-transparent 
                       text-gray-200 text-sm font-medium
-                      shadow-sm hover:shadow-lg hover:opacity-80
-                      transition-all duration-200"
+                      shadow-sm hover:shadow-sm hover:shadow-[#D3F9B5] hover:opacity-80
+                      transition-all duration-300"
           >
             <img className="w-5 h-5" src={skill.icon} alt={skill.name} />
             <span className="whitespace-nowrap">{skill.name}</span>
