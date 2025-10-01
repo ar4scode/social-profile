@@ -11,16 +11,20 @@ const Skills = () => {
   ];
 
   return (
-    <div className="p-6">
+    <div className="p-6">``
       <h1 className="text-sm text-gray-400 mx-2">/Skills</h1>
-      <ul className="mx-4 mt-4 grid grid-cols-2 sm:grid-cols-3 gap-3">
+        <ul className="mx-4 mt-4 flex flex-wrap gap-3">
         {skills.map((skill) => (
           <li
             key={skill.name}
-            className="flex items-center text-sm gap-2 shadow-sm shadow-[#CFCFEA] p-2 rounded-md"
+            className="flex items-center gap-2 px-3 py-2 rounded-full 
+                      bg-transparent 
+                      text-gray-200 text-sm font-medium
+                      shadow-sm hover:shadow-lg hover:opacity-80
+                      transition-all duration-200"
           >
             <img className="w-5 h-5" src={skill.icon} alt={skill.name} />
-            <p className="sm:text-left text-nowrap text-[#D3F9B5]">{skill.name}</p>
+            <span className="whitespace-nowrap">{skill.name}</span>
           </li>
         ))}
       </ul>
