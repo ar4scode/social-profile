@@ -4,6 +4,7 @@ body {
   background: #19323C;
   color: #CFCFEA ;
   font-family: Arial, Helvetica, sans-serif;
+  background: url('./assets//foggy.avif') no-repeat center/cover;
 }
 
 /* 
