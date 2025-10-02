@@ -13,14 +13,14 @@ function App() {
     <>
       <div>
         <Navbar />
+        <ScrollButton />
       </div>
-      <div className="relative md:mx-auto m-4 md:max-w-2/4 rounded-2xl shadow-md bg-[#26282c]/60 backdrop-blur-md">
+      <div className="md:mx-auto m-4 md:max-w-2/4 rounded-2xl shadow-md bg-[#26282c]/60 backdrop-blur-md">
         <Profile />
         <About />
         <Socials />
         <Skills />
         <Projects />
-        <ScrollButton />
       </div>
     </>
 

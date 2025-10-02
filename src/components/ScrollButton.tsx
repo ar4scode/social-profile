@@ -26,12 +26,15 @@ const ScrollButton = () => {
     };
     
   return (
-    <button
-      onClick={handleClick}
-      className="text-black absolute bottom-4 right-4 cursor-pointer bg-[#D3F9B5] p-2 md:p-4 rounded-full shadow-sm hover:bg-[#c1eb9f] transition hover:shadow-[#c1eb9f]"
-    >
-      {isVisible ? <FaAngleUp /> : null}
-    </button>
+    isVisible && 
+      <button
+        onClick={handleClick}
+        className="z-50 flex gap-2 items-center font-semibold text-sm text-black fixed bottom-4 right-4 cursor-pointer bg-[#D3F9B5] p-2 md:p-4 rounded-full shadow-sm hover:bg-[#c1eb9f] transition hover:shadow-[#c1eb9f]"
+      >
+        <FaAngleUp />
+        <span className="hidden md:inline">BACK TO TOP</span>
+      </button>
+
   )
 }
 
