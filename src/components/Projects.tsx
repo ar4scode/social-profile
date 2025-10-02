@@ -1,5 +1,4 @@
-import { FaJxl , FaDiceSix } from "react-icons/fa6";
-import { FaGithub } from "react-icons/fa6";
+import { FaJxl , FaDiceSix , FaGithub , FaVanShuttle } from "react-icons/fa6";
 
 const Projects = () => {
 
@@ -17,6 +16,14 @@ const Projects = () => {
       icon: <FaDiceSix />,
       githubRepo: "https://github.com/ar4scode/tenzies-game",
       liveDemo : "https://ar4scode.github.io/tenzies-game/"
+    },
+    {
+      name: "Van Life",
+      description: "Discover the freedom of the open road with our fully-equipped camper vans!",
+      icon: <FaVanShuttle />,
+      githubRepo: "https://github.com/ar4scode/van-life-webpage",
+      liveDemo: "https://ar4scode.github.io/van-life-webpage/",
+      status: "In Progress"
     }
   ]
   return (
@@ -30,6 +37,7 @@ const Projects = () => {
           <div className="flex items-center gap-3 mb-3">
             <p className="font-semibold text-lg text-[#D3F9B5]">{project.name}</p>
             {project.icon}
+            <p className="text-xs text-gray-500">{project.status}</p>
           </div>
 
           <p className="text-sm text-gray-300">
