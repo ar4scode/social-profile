@@ -20,7 +20,7 @@ const Projects = () => {
     }
   ]
   return (
-    <div className="p-1">
+    <div id="projects" className="p-1">
       <h1 className="p-6 mx-2 text-sm text-gray-400">/Projects</h1>
       <ul className="flex flex-col gap-4 p-2">
         {projects.map((project) => {

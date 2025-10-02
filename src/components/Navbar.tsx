@@ -19,7 +19,7 @@ const Navbar = () => {
           </span>
           <FaDownload className="transition-all duration-300 hover:text-[#D3F9B5]" />
         </a>
-        <a className="duration-300 rounded-full hover:shadow-sm px-2 py-2 hover:shadow-[#D3F9B5] hover:text-[#D3F9B5] text-xs md:text-sm" href="">Projects</a>
+        <a className="duration-300 rounded-full hover:shadow-sm px-2 py-2 hover:shadow-[#D3F9B5] hover:text-[#D3F9B5] text-xs md:text-sm" href="#projects">Projects</a>
       </div>
     </div>
   )
