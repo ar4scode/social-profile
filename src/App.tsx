@@ -4,17 +4,23 @@ import About from './components/About';
 import Socials from './components/Socials';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
+import Navbar from './components/Navbar';
 
 function App() {
   
   return (
-    <div className="md:mx-auto m-4 md:max-w-2/4 rounded-2xl shadow-md bg-[#26282c]/60 backdrop-blur-md">
-      <Profile />
-      <About />
-      <Socials />
-      <Skills />
-      <Projects />
-    </div>
+    <>
+      <div>
+        <Navbar />
+      </div>
+      <div className="md:mx-auto m-4 md:max-w-2/4 rounded-2xl shadow-md bg-[#26282c]/60 backdrop-blur-md">
+        <Profile />
+        <About />
+        <Socials />
+        <Skills />
+        <Projects />
+      </div>
+    </>
 
   )
 }

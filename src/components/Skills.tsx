@@ -11,7 +11,7 @@ const Skills = () => {
   ];
 
   return (
-    <div className="p-6">``
+    <div className="p-6">
       <h1 className="text-sm text-gray-400 mx-2">/Skills</h1>
         <ul className="mx-4 mt-4 flex flex-wrap gap-3">
         {skills.map((skill) => (
