@@ -6,6 +6,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import ScrollButton from './components/ScrollButton';
+import Contact from './components/Contact';
 
 function App() {
   
@@ -17,6 +18,7 @@ function App() {
       </div>
       <div className="md:mx-auto m-4 md:max-w-2/4 rounded-2xl shadow-md bg-[#26282c]/60 backdrop-blur-md">
         <Profile />
+        <Contact />
         <About />
         <Socials />
         <Skills />

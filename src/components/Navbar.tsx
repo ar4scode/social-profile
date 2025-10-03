@@ -11,7 +11,8 @@ const Navbar = () => {
 
       <div className="flex text-sm font-semibold items-center md:text-md ">
         <a
-          href=""
+          href="./ArasAziziResume.pdf"
+          download
           className="flex items-center gap-2 px-2 py-2 rounded-full transition-all duration-300 hover:shadow-sm hover:shadow-[#D3F9B5] hover:text-[#D3F9B5] text-xs md:text-sm"
         >
           <span className="transition-all duration-300">
