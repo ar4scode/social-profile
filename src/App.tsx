@@ -7,6 +7,7 @@ import Projects from './components/Projects';
 import Navbar from './components/Navbar';
 import ScrollButton from './components/ScrollButton';
 import Contact from './components/Contact';
+import Education from './components/Education';
 
 function App() {
   
@@ -20,6 +21,7 @@ function App() {
         <Profile />
         <Contact />
         <About />
+        <Education />
         <Socials />
         <Skills />
         <Projects />
